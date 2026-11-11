@@ -21,13 +21,13 @@ variable "template_id" {
   type        = number
 }
 
-variable "datastore_id" {
-  description = "Default VM datastore"
-  type        = string
-}
-
 variable "network_bridge" {
   description = "Default network bridge"
   type        = string
   default     = "vmbr0"
+}
+
+variable "storage_mapping" {
+  description = "Mapping storage profile to Proxmox datastore"
+  type        = map(string)
 }
