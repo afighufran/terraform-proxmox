@@ -1,0 +1,3 @@
+﻿No,Component,Sub Component,Name,Operating System,Qty,vCPU,Memory (GB),Disk (GB),Disk Type,Total vCPU,Total Memory (GB),Total Disk (GB),IP Address,Gateway,DNS,VLAN
+15,VA,Trivy,trivy,Ubuntu 26.04,1,2,4,100,POC,2,4,100,172.16.11.61/22,172.16.8.1,172.16.9.22,200
+16,Uptime,Uptime Kuma,uptime-kuma,Ubuntu 26.04,2,2,4,50,POC,4,8,100,172.16.11.62/22|172.16.11.63/22,172.16.8.1,172.16.9.22,200

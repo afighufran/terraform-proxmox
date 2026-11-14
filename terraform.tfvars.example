@@ -1,0 +1,15 @@
+# Proxmox Connection
+proxmox_endpoint = "YOUR_PROXMOX_ENDPOINT"
+proxmox_insecure = true
+
+# Default Configuration
+default_node   = "YOUR_DEFAULT_NODE"
+template_id    = YOUR_TEMPLATE_ID
+network_bridge = "vmbr0"
+
+# Storage Mapping
+storage_mapping = {
+  "POC"      = "YOUR_DATASTORE_1"
+  "SSD SAN"  = "YOUR_DATASTORE_2"
+  "HDD SAN" = "YOUR_DATASTORE_3"
+}
