@@ -1,0 +1,1 @@
+repository untuk bulk provision VM proxmox, atur terraform.tfvars dan vms.csv seperti yang ada di example ya bang
