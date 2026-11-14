@@ -12,3 +12,4 @@ override.tf.json
 *_override.tf.json
 *.csv
 terraform-state-backup.json
+.terraform.lock.hcl

@@ -96,15 +96,6 @@ removed {
 }
 
 # ==========================================
-# Migrate Existing Uptime Kuma State Address
-# ==========================================
-
-moved {
-  from = proxmox_virtual_environment_vm.vm["stt-dev-uptime-kuma"]
-  to   = proxmox_virtual_environment_vm.vm["stt-dev-uptime-kuma-01"]
-}
-
-# ==========================================
 # VM Provisioning
 # ==========================================
 
@@ -185,7 +176,7 @@ resource "proxmox_virtual_environment_vm" "vm" {
 
   # Safety
   lifecycle {
-    prevent_destroy = true
+    prevent_destroy = false
 
     precondition {
       condition = (
