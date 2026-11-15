@@ -1,6 +1,7 @@
 # Proxmox Connection
 proxmox_endpoint = "YOUR_PROXMOX_ENDPOINT"
 proxmox_insecure = true
+proxmox_api_token = "YOUR_API_TOKEN"
 
 # Default Configuration
 default_node   = "YOUR_DEFAULT_NODE"

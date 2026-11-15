@@ -10,6 +10,12 @@ variable "proxmox_insecure" {
   default     = false
 }
 
+variable "proxmox_api_token" {
+  description = "Proxmox API Token for authentication"
+  type        = string
+  sensitive   = true
+}
+
 # Proxmox VM defaults
 variable "default_node" {
   description = "Default target Proxmox node"
